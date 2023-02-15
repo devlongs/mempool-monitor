@@ -12,7 +12,7 @@ import (
 func main() {
 	ctx := context.Background()
 
-	ethClient, err := ethclient.Dial("https://mainnet.infura.io/v3/ac7fe75399a146fe821d83ce4c7c512e")
+	ethClient, err := ethclient.Dial("https://mainnet.infura.io/v3/ac7fe75821d83ce4c7c512e")
 	if err != nil {
 		log.Fatalf("Failed to connect to the Ethereum client: %v", err)
 	}
